@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="522fd3a4-6c72-4ee2-9e12-6a2acbbec838" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1XOTXF9fKN3hAyp5VjWtAsGlJLz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PythonProject\predictCaptcha" />
+      <recent name="F:\PythonProject\predictCaptcha\model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PythonProject\predictCaptcha" />
+      <recent name="F:\PythonProject\predictCaptcha\model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.picProcess">
+    <configuration name="channelChange" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="predictCaptcha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/channelChange.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="picProcess" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="predictCaptcha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/picProcess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sdk" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="predictCaptcha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sdk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.picProcess" />
+        <item itemvalue="Python.sdk" />
+        <item itemvalue="Python.channelChange" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\HP\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="522fd3a4-6c72-4ee2-9e12-6a2acbbec838" name="Default Changelist" comment="" />
+      <created>1580916179049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580916179049</updated>
+      <workItem from="1580916194238" duration="118000" />
+      <workItem from="1580918358263" duration="20000" />
+      <workItem from="1581151523592" duration="1348000" />
+      <workItem from="1581258401726" duration="2598000" />
+      <workItem from="1581261085354" duration="1492000" />
+      <workItem from="1581302713359" duration="893000" />
+      <workItem from="1581306449106" duration="852000" />
+      <workItem from="1581329991463" duration="3439000" />
+      <workItem from="1581770570499" duration="424000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581259542801">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1581259542801" />
+    <state x="549" y="190" key="FileChooserDialogImpl" timestamp="1581770845560">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1581770845560" />
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom" timestamp="1581342421107">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581342421107" />
+    <state width="1493" height="264" key="GridCell.Tab.0.center" timestamp="1581342421107">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581342421107" />
+    <state width="1493" height="264" key="GridCell.Tab.0.left" timestamp="1581342421107">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581342421107" />
+    <state width="1493" height="264" key="GridCell.Tab.0.right" timestamp="1581342421107">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581342421107" />
+    <state width="1493" height="414" key="GridCell.Tab.1.bottom" timestamp="1581312835384">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="414" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581312835384" />
+    <state width="1493" height="414" key="GridCell.Tab.1.center" timestamp="1581312835384">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="414" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1581312835384" />
+    <state width="1493" height="414" key="GridCell.Tab.1.left" timestamp="1581312835384">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="414" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1581312835384" />
+    <state width="1493" height="414" key="GridCell.Tab.1.right" timestamp="1581312835384">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="414" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1581312835384" />
+    <state x="272" y="77" key="SettingsEditor" timestamp="1581332573631">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="272" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1581332573631" />
+    <state x="599" y="226" key="svn.repositoryBrowser" timestamp="1581770871796">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="599" y="226" key="svn.repositoryBrowser/0.0.1536.864@0.0.1536.864" timestamp="1581770871796" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/predictCaptcha$picProcess.coverage" NAME="picProcess Coverage Results" MODIFIED="1581331130866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/predictCaptcha$channelChange.coverage" NAME="channelChange Coverage Results" MODIFIED="1581151855767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/predictCaptcha$sdk.coverage" NAME="sdk Coverage Results" MODIFIED="1581151860391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
