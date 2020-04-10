@@ -13,7 +13,7 @@ public class Main {
     private static Random random = new Random();
 
     public static final String VERIFY_CODES = "123456789ABCDEFGHIJKLMNPQRSTUVWXYZ";
-    // 这里我需要训练的是数字和大写字母的识别
+    // ??????????????????????д????????
     private static ImgFontByte imgFontByte = new ImgFontByte();
 
     private static int[] fontStyle = { Font.PLAIN };
@@ -35,7 +35,7 @@ public class Main {
     }
 
     /**
-     * 输出指定验证码图片流
+     * ???????????????
      */
     private static void outputImage(int w, int h, String path, String code, Color needColor, StringBuilder needCode)
             throws IOException {
@@ -46,20 +46,20 @@ public class Main {
         g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 
         Color c = getRandColor();
-        g2.setColor(c);// 设置边框色
+        g2.setColor(c);// ???????
         g2.fillRect(0, 0, w, h);
-        g2.setColor(c);// 设置背景色
+        g2.setColor(c);// ????????
         g2.fillRect(0, 2, w, h);
 
         Color s = getRandColor();
         char[] charts = code.toCharArray();
         for (int i = 0; i < charts.length; i++) {
 
-            g2.setColor(s);// 设置背景色
+            g2.setColor(s);// ????????
             g2.setFont(getRandomFont(h));
             g2.fillRect(0, 6, w, h - 12);
         }
-        g2.setColor(Color.GREEN);// 设置线条的颜色为绿色
+        g2.setColor(Color.GREEN);// ?????????????????
         int lineNumbers = random.nextInt(4);
 
         for (int i = 0; i < lineNumbers; i++) {
@@ -70,7 +70,7 @@ public class Main {
             // g2.drawLine(x, y, x + xl + 40, y + yl + 20);
         }
 
-        // 2.添加噪点
+        // 2.???????
         float yawpRate = 0.05f;
         int area = (int) (yawpRate * w * h);
         for (int i = 0; i < area; i++) {
@@ -80,12 +80,12 @@ public class Main {
             image.setRGB(x, y, rgb);
         }
 
-        // 3.使图片扭曲
+        // 3.??????
         shear(g2, w, h, s, c);
 
         char[] chars = code.toCharArray();
 
-        // 生成字符
+        // ???????
         Random random = new Random();
         Color defaultFontColor;
         int n = random.nextInt(fontColor.length);
@@ -118,7 +118,7 @@ public class Main {
             }
             g2.setColor(need);
             if (isChineseChar(chars[i])) {
-                g2.setFont(new Font("宋体", Font.PLAIN ,e tRandomFontSize(h)));
+                g2.setFont(new Font("????", Font.PLAIN ,getRandomFontSize(h)));
 
             } else {
 
@@ -190,12 +190,12 @@ public class Main {
     }
 
     /**
-     * 随机字体、随机风格、随机大小
+     * ??????塢???????????С
      */
     private static Font getRandomFont(int h) {
-        // 字体样式
+        // ???????
         int style = fontStyle[random.nextInt(fontStyle.length)];
-        // 字体大小
+        // ?????С
         int size = getRandomFontSize(h);
 
         return new ImgFontByte().getFont(size, style);
@@ -203,14 +203,14 @@ public class Main {
     }
 
     /**
-     * 获取字体大小按范围随机
+     * ????????С????Χ???
      */
     private static int getRandomFontSize(int h) {
         return h - 16;
     }
 
     /**
-     * 3D中空字体自定义属性类
+     * 3D?п????????????????
      */
     static class ImgFontByte {
         public Font getFont(int fontSize, int fontStyle) {
@@ -223,7 +223,7 @@ public class Main {
     }
 
     /**
-     * 字符和干扰线扭曲
+     * ?????????????
      */
     private static void shear(Graphics g, int w1, int h1, Color color, Color c) {
         shearX(g, w1, h1, color);
@@ -231,7 +231,7 @@ public class Main {
     }
 
     /**
-     * x轴扭曲
+     * x?????
      */
     private static void shearX(Graphics g, int w1, int h1, Color color) {
         int period = random.nextInt(2);
@@ -252,7 +252,7 @@ public class Main {
     }
 
     /**
-     * y轴扭曲
+     * y?????
      */
     private static void shearY(Graphics g, int w1, int h1, Color color, Color c) {
         int period = random.nextInt(40) + 10; // 50;
@@ -269,7 +269,7 @@ public class Main {
     }
 
     /**
-     * 本地测试类，可以生成样例验证码图片供观看效果
+     * ?????????????????????????????????Ч??
      */
     public static void main(String[] args) throws IOException {
         int w = 90, h = 35;
@@ -283,36 +283,36 @@ public class Main {
         for (int i = 0; i < 50000; i++) {
             StringBuilder needCode = new StringBuilder();
             String verifyCode = generateVerifyCode();
-            System.out.println("生成第" + i + "张图片");
+            System.out.println("?????" + i + "????");
             outputImage(w, h, "E:/TrainSet/java_captcha__Red", verifyCode, Color.RED, needCode);
         }
         for (int i = 0; i < 50000; i++) {
             StringBuilder needCode = new StringBuilder();
             String verifyCode = generateVerifyCode();
-            System.out.println("生成第" + i + "张图片");
+            System.out.println("?????" + i + "????");
             outputImage(w, h, "E:/TrainSet/java_captcha_3_Blue", verifyCode, Color.BLUE, needCode);
         }
         for (int i = 0; i < 50000; i++) {
             StringBuilder needCode = new StringBuilder();
             String verifyCode = generateVerifyCode();
-            System.out.println("生成第" + i + "张图片");
+            System.out.println("?????" + i + "????");
             outputImage(w, h, "E:/TrainSet/java_captcha_3_Yellow", verifyCode, Color.YELLOW, needCode);
         }
         for (int i = 0; i < 10000; i++) {
             StringBuilder needCode = new StringBuilder();
             String verifyCode = generateVerifyCode();
-            System.out.println("生成第" + i + "张图片");
+            System.out.println("?????" + i + "????");
             outputImage(w, h, "E:/TrainSet/java_captcha_3_Green", verifyCode, Color.GREEN, needCode);
         }
         for (int i = 0; i < 20000; i++) {
             StringBuilder needCode = new StringBuilder();
             String verifyCode = generateVerifyCode();
-            System.out.println("生成第" + i + "张图片");
+            System.out.println("?????" + i + "????");
             outputImage(w, h, "E:/TrainSet/java_captcha_3_Black", verifyCode, Color.BLACK, needCode);
         }
         for (int i = 0; i < 100000; i++) {
             String verifyCode = generateVerifyCode();
-            System.out.println("生成第" + i + "张图片");
+            System.out.println("?????" + i + "????");
             outputImage(w, h, "E:/TrainSet/AllColor", verifyCode, Color.BLACK, null);
         }
 
